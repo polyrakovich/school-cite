@@ -105,14 +105,14 @@ section ul {
   list-style-type: square;
 }
 
-aside ul li {
+section p a {
   margin-bottom: 1em;
   font-size: 1.2em;
   font-weight: bold;
   list-style-type: none;
-  padding-left: 2em;
+  padding-right: 1.2em;
   background-image: url("external-link-52.png");
-  background-position: 0 0;
+  background-position: right;
   background-size: 1em 1em;
   background-repeat: no-repeat;
 }
