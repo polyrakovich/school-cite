@@ -1,0 +1,151 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: "alexandria";
+  src: url("my-fonts/alexandriaflf.otf");
+  src: url("my-fonts/alexandriaflf.woff") format("woff"),
+       url("my-fonts/alexandriaflf.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: alexandria, "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 10px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: sans-serif, serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+section {
+  line-height: 1.5;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #6667aa;
+}
+
+section ul {
+  list-style-type: square;
+}
+
+aside ul li {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  list-style-type: none;
+  padding-left: 2em;
+  background-image: url("external-link-52.png");
+  background-position: 0 0;
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  border: 1px solid #a66;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 1em;
+}
+
+nav ul li a:hover {
+  background-color: rgba(170, 102, 102, 0.5);
+  color: white;
+}
+
+
+
+
